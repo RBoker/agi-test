@@ -43,7 +43,7 @@ public class SearchTests {
         // Configura o WebDriver e o FluentWait
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(15))
+        wait = new WebDriverWait(driver, Duration.ofSeconds(25))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
     }
@@ -104,7 +104,7 @@ public class SearchTests {
     private void acessarBlog() {
         driver.get(BLOG_URL);
         try {
-            Thread.sleep(15000);
+            Thread.sleep(25000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -117,6 +117,7 @@ public class SearchTests {
      * @param termoDePesquisa O termo a ser pesquisado.
      */
     private void realizarPesquisa(String termoDePesquisa) {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(LUPA_PESQUISA_XPATH)));
         clicarElemento(By.xpath(LUPA_PESQUISA_XPATH));
         WebElement campoPesquisa = driver.findElement(By.xpath(SEARCH_FIELD_CLASS));
         campoPesquisa.sendKeys(termoDePesquisa);
