@@ -234,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1723654369113</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Alterações no workspace.xml">
+      <created>1723654628933</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723654628933</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Alterações no workspace.xml">
+      <created>1723655092437</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723655092437</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
