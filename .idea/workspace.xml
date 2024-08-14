@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Commit inicial do projeto">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rboker/blogdoagi/search/SearchTests.java" afterDir="false" />
+    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Alteração no workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/rboker/blogdoagi/search/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rboker/SearchTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +48,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Projetos IntelliJ/agi-test",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.SearchTests.testSqlInjectionInSearchField">
+}]]></component>
+  <component name="RunManager" selected="JUnit.SearchTests">
     <configuration name="SearchTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AgiBlogSearch" />
       <extension name="coverage">
@@ -165,8 +166,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchTests.testSqlInjectionInSearchField" />
         <item itemvalue="JUnit.SearchTests" />
+        <item itemvalue="JUnit.SearchTests.testSqlInjectionInSearchField" />
         <item itemvalue="Maven.AgiBlogSearch [test]" />
         <item itemvalue="JUnit.SearchTests.testPesquisarUmTermoExistente" />
         <item itemvalue="JUnit.SearchTests.testPesquisarUmTermoInexistente" />
@@ -182,6 +183,42 @@
       <option name="presentableId" value="Default" />
       <updated>1723552628319</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit inicial do projeto">
+      <created>1723615091860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723615091860</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Alteração no README.md">
+      <created>1723616491996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723616491996</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Alteração no workspace.xml">
+      <created>1723617147461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723617147461</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Alteração no workspace.xml">
+      <created>1723619277268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723619277268</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Alteração no workspace.xml">
+      <created>1723619516113</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723619516113</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +226,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -197,6 +246,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial do projeto" />
+    <MESSAGE value="Alteração no README.md" />
+    <MESSAGE value="Alteração no workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteração no workspace.xml" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package br.com.rboker.blogdoagi.search;
+package com.rboker;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;

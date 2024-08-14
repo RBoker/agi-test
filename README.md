@@ -14,8 +14,7 @@ Este repositório contém uma suíte de testes automatizados desenvolvidos em Ja
 1. **Clone o repositório:**
 
 ```bash
-   git clone https://github.com/seu-usuario/blogdoagi-search-tests.git
-   cd blogdoagi-search-tests
+  git clone https://github.com/RBoker/agi-test.git
 ```
 2. **Instale as dependências:**
 
