@@ -1,0 +1,11 @@
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Set up Chrome dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libgconf-2-4 libxi6 libxrandr2 libatk1.0-0 libxcursor1 libxdamage1 libxcomposite1 libasound2 libpangocairo-1.0-0 libxss1 libxext6

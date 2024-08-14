@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Commit inicial do projeto">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Alterações no pom.xml e workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723649822186</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Alterações no pom.xml e workspace.xml">
+      <created>1723652275915</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723652275915</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +250,7 @@
     <MESSAGE value="Alteração no README.md" />
     <MESSAGE value="Alteração no workspace.xml" />
     <MESSAGE value="Commit inicial do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial do projeto" />
+    <MESSAGE value="Alterações no pom.xml e workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterações no pom.xml e workspace.xml" />
   </component>
 </project>
