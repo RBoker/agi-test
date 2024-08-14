@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Alterações no pom.xml" />
+    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Alterações no pom.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,18 +39,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Projetos IntelliJ/agi-test",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projetos IntelliJ/agi-test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.SearchTests">
+}</component>
+  <component name="RunManager" selected="JUnit.SearchTests (1)">
+    <configuration name="SearchTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AgiBlogSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rboker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rboker" />
+      <option name="MAIN_CLASS_NAME" value="com.rboker.SearchTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AgiBlogSearch" />
       <extension name="coverage">
@@ -90,22 +108,6 @@
       <option name="PACKAGE_NAME" value="br.com.rboker.blogdoagi.search" />
       <option name="MAIN_CLASS_NAME" value="br.com.rboker.blogdoagi.search.SearchTests" />
       <option name="METHOD_NAME" value="testPesquisarUmTermoExistente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTests.testPesquisarUmTermoInexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AgiBlogSearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.rboker.blogdoagi.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.rboker.blogdoagi.search" />
-      <option name="MAIN_CLASS_NAME" value="br.com.rboker.blogdoagi.search.SearchTests" />
-      <option name="METHOD_NAME" value="testPesquisarUmTermoInexistente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchTests (1)" />
         <item itemvalue="JUnit.SearchTests" />
-        <item itemvalue="JUnit.SearchTests.testSqlInjectionInSearchField" />
         <item itemvalue="Maven.AgiBlogSearch [test]" />
+        <item itemvalue="JUnit.SearchTests.testSqlInjectionInSearchField" />
         <item itemvalue="JUnit.SearchTests.testPesquisarUmTermoExistente" />
-        <item itemvalue="JUnit.SearchTests.testPesquisarUmTermoInexistente" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723658224416</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Alterações no pom.xml">
+      <created>1723658546974</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723658546974</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
