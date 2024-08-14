@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Alterações no workspace.xml" />
+    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Alterações no pom.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1723655170341</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Alterações no workspace.xml">
+      <created>1723657589166</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723657589166</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Alterações no pom.xml">
+      <created>1723657914045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723657914045</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +301,7 @@
     <MESSAGE value="Commit inicial do projeto" />
     <MESSAGE value="Alterações no pom.xml e workspace.xml" />
     <MESSAGE value="Alterações no workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterações no workspace.xml" />
+    <MESSAGE value="Alterações no pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterações no pom.xml" />
   </component>
 </project>
