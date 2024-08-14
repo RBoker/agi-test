@@ -104,7 +104,7 @@ public class SearchTests {
     private void acessarBlog() {
         driver.get(BLOG_URL);
         try {
-            Thread.sleep(5000);
+            Thread.sleep(15000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
