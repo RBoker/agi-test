@@ -102,12 +102,13 @@ public class SearchTests {
      * Acessa o blog do Agi.
      */
     private void acessarBlog() {
+        driver.get(BLOG_URL);
         try {
-            Thread.sleep(10000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        driver.get(BLOG_URL);
+
     }
 
     /**
