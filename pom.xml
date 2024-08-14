@@ -42,17 +42,4 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <testResources>
-            <testResource>
-                <directory>src/test/resources/features</directory>
-                <targetPath>com/rboker</targetPath>
-            </testResource>
-            <testResource>
-                <directory>src/test/resources</directory>
-            </testResource>
-        </testResources>
-
-    </build>
-
 </project>
