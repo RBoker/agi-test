@@ -41,12 +41,18 @@ Esta classe de testes contém cenários que verificam a funcionalidade de pesqui
 
 - Pesquisar um termo existente: Verifica se a pesquisa por um termo válido retorna resultados relevantes.
 - Pesquisar um termo inexistente: Verifica se a pesquisa por um termo inválido ou inexistente retorna a mensagem apropriada de "nenhum resultado encontrado".
+
 2. `SqlInjectionTests.java`
 
    Este teste verifica se o campo de pesquisa do Blog do Agi é vulnerável a ataques de SQL Injection.
 
    **Atenção:** Este teste deve ser executado apenas em ambientes de teste controlados.
 
+
+3. Um relatório simplificado da execução pode ser visto em:
+````bash
+target/site/surefire-report.html
+````
 
 ## Contribuição
 Contribuições são bem-vindas! Se você quiser contribuir com este projeto, siga estas etapas:
