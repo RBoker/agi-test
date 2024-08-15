@@ -51,7 +51,7 @@ public class SearchTests {
         options.addArguments("--disable-gpu"); // applicable to windows os only
         options.addArguments("--no-sandbox"); // Bypass OS security model
         driver = new ChromeDriver(options);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(25))
+        wait = new WebDriverWait(driver, Duration.ofSeconds(15))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
     }
@@ -111,12 +111,7 @@ public class SearchTests {
      */
     private void acessarBlog() {
         driver.get(BLOG_URL);
-        try {
-            Thread.sleep(25000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(LUPA_PESQUISA_XPATH)));
     }
 
     /**
@@ -125,7 +120,6 @@ public class SearchTests {
      * @param termoDePesquisa O termo a ser pesquisado.
      */
     private void realizarPesquisa(String termoDePesquisa) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(LUPA_PESQUISA_XPATH)));
         clicarElemento(By.xpath(LUPA_PESQUISA_XPATH));
         WebElement campoPesquisa = driver.findElement(By.xpath(SEARCH_FIELD_CLASS));
         campoPesquisa.sendKeys(termoDePesquisa);
@@ -138,6 +132,7 @@ public class SearchTests {
      * @param by Localizador do elemento a ser clicado.
      */
     private void clicarElemento(By by) {
+
         wait.until(ExpectedConditions.elementToBeClickable(by)).click();
     }
 
@@ -145,6 +140,7 @@ public class SearchTests {
      * Rola a página para carregar mais resultados.
      */
     private void rolarPaginaParaResultadosAdicionais() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(PAGE_TITLE_CLASS)));
         WheelInput.ScrollOrigin scrollOrigin = WheelInput.ScrollOrigin.fromViewport(10, 10);
         Actions actions = new Actions(driver);
 
@@ -160,6 +156,7 @@ public class SearchTests {
      * @return True se o termo foi encontrado em todos os artigos, False caso contrário.
      */
     private boolean verificarResultados(String termoDePesquisa) {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.tagName("article")));
         List<WebElement> artigos = driver.findElements(By.tagName("article"));
         for (WebElement artigo : artigos) {
             if (!verificarTermoNoArtigo(artigo, termoDePesquisa)) {
@@ -205,6 +202,7 @@ public class SearchTests {
      * @return True se a mensagem foi exibida, False caso contrário.
      */
     private boolean verificarMensagemNaoEncontrado() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(PAGE_TITLE_CLASS)));
         WebElement mensagemNaoEncontrado = driver.findElement(By.className(NO_RESULTS_CLASS));
         return mensagemNaoEncontrado.getText().contains(MENSAGEM_NAO_ENCONTRADO);
     }
