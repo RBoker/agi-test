@@ -147,6 +147,7 @@ public class SearchTests {
 
         clicarElemento(By.xpath(LUPA_PESQUISA_XPATH));
         WebElement campoPesquisa = driver.findElement(By.xpath(SEARCH_FIELD_CLASS));
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(SEARCH_FIELD_CLASS)));
         campoPesquisa.sendKeys(termoDePesquisa);
         campoPesquisa.submit();
     }
