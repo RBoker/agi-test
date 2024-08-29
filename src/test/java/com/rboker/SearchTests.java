@@ -144,6 +144,7 @@ public class SearchTests {
      * @param termoDePesquisa O termo a ser pesquisado.
      */
     private void realizarPesquisa(String termoDePesquisa) {
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(LUPA_PESQUISA_XPATH)));
         clicarElemento(By.xpath(LUPA_PESQUISA_XPATH));
         WebElement campoPesquisa = driver.findElement(By.xpath(SEARCH_FIELD_CLASS));
         campoPesquisa.sendKeys(termoDePesquisa);
