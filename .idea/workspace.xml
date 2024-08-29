@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Alteração das opções do Chrome">
+    <list default="true" id="f09f436a-a28c-402b-bb1a-630610bfb9d1" name="Changes" comment="Atualização da versõ do Selenium">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rboker/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rboker/SearchTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724954194557</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Atualização da versõ do Selenium">
+      <created>1724954776081</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1724954776081</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,6 +398,7 @@
     <MESSAGE value="Atualização do README.MD" />
     <MESSAGE value="Atualização do maven.yaml" />
     <MESSAGE value="Alteração das opções do Chrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração das opções do Chrome" />
+    <MESSAGE value="Atualização da versõ do Selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização da versõ do Selenium" />
   </component>
 </project>

@@ -64,7 +64,7 @@ public class SearchTests {
         options.addArguments("--no-sandbox");
         // Desativa o sandboxing de segurança do SO, necessário em alguns ambientes de CI para evitar problemas de permissão.
 
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
         // Executa o Chrome em modo headless (sem interface gráfica), essencial para ambientes de CI.
 
         options.addArguments("--disable-software-rasterizer");
