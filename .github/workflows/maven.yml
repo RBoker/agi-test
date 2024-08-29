@@ -48,8 +48,7 @@ jobs:
           
     - name: Run tests
       run:
-       google-chrome --headless --no-sandbox --disable-gpu --disable-software-rasterizer --disable-dev-shm-usage --remote-debugging-port=9222 &
-       mvn test
+        mvn test
           # Execute seus testes aqui que utilizam o Chrome
           # Por exemplo, se você estiver usando Maven:
          
