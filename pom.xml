@@ -45,7 +45,11 @@
             <version>7.9.0</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-enforcer-plugin</artifactId>
+            <version>3.5.0</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
