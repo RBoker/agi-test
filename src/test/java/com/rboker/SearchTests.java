@@ -44,13 +44,37 @@ public class SearchTests {
         // Configura o WebDriver e o FluentWait
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
-        options.addArguments("start-maximized"); // open Browser in maximized mode
-        options.addArguments("disable-infobars"); // disabling infobars
-        options.addArguments("--disable-extensions"); // disabling extensions
-        options.addArguments("--disable-gpu"); // applicable to windows os only
-        options.addArguments("--no-sandbox"); // Bypass OS security model
+        // Adiciona as opções do Chrome:
+
+        options.addArguments("--disable-dev-shm-usage");
+        // Supera problemas de recursos limitados ao redirecionar o Chrome para usar o disco em vez da memória compartilhada (/dev/shm).
+
+        options.addArguments("start-maximized");
+        // Abre o navegador em modo maximizado para ter uma visualização completa da página.
+
+        options.addArguments("disable-infobars");
+        // Desabilita a barra de informações que avisa "Chrome is being controlled by automated test software".
+
+        options.addArguments("--disable-extensions");
+        // Desabilita todas as extensões do Chrome para evitar interferências durante os testes.
+
+        options.addArguments("--disable-gpu");
+        // Desativa a aceleração de hardware de GPU. Aplicável principalmente para sistemas operacionais Windows, mas usado em outros sistemas para evitar bugs relacionados à GPU.
+
+        options.addArguments("--no-sandbox");
+        // Desativa o sandboxing de segurança do SO, necessário em alguns ambientes de CI para evitar problemas de permissão.
+
+        options.addArguments("--headless");
+        // Executa o Chrome em modo headless (sem interface gráfica), essencial para ambientes de CI.
+
+        options.addArguments("--disable-software-rasterizer");
+        // Desativa o rasterizador de software, útil para melhorar o desempenho em sistemas com baixa capacidade gráfica.
+
+        options.addArguments("--remote-debugging-port=9222");
+        // Configura a porta para depuração remota, permitindo que o Chrome seja depurado de maneira remota durante a execução em modo headless.
+
         driver = new ChromeDriver(options);
+
         wait = new WebDriverWait(driver, Duration.ofSeconds(15))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
@@ -169,7 +193,7 @@ public class SearchTests {
     /**
      * Verifica se o termo de pesquisa que não aparece no título aparece no corpo do artigo.
      *
-     * @param artigo O artigo a ser verificado.
+     * @param artigo          O artigo a ser verificado.
      * @param termoDePesquisa O termo a ser pesquisado.
      * @return True se o termo foi encontrado, False caso contrário.
      */
