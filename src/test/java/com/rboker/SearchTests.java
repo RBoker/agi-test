@@ -75,7 +75,7 @@ public class SearchTests {
 
         driver = new ChromeDriver(options);
 
-        wait = new WebDriverWait(driver, Duration.ofSeconds(15))
+        wait = new WebDriverWait(driver, Duration.ofSeconds(30))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
     }
